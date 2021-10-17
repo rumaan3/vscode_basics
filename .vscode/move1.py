@@ -15,7 +15,6 @@ f=os.listdir(path)
 
 for each in f:
         if each.endswith(".exe"):
-            print(len.each)
             shutil.move(os.path.join(path,each),exe)
         if each.endswith(".jpg") or each.endswith(".jpeg") or each.endswith(".png") or each.endswith(".JPG"):
             shutil.move(os.path.join(path,each),images)
